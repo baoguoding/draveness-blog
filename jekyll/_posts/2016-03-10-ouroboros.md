@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: Ouroboros 的实现 ---- 提供神奇的滚动效果
 date: 2016-03-10 17:40:28.000000000 +08:00
-permalink: /ouroboros-de-shi-xian-ti-gong-shen-qi-de-gun-dong-xiao-guo
+permalink: /ouroboros
 tags: iOS
 ---
 

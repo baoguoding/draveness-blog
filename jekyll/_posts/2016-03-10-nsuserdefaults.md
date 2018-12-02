@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: NSUserDefaults 的默认值
 date: 2016-03-10 17:39:45.000000000 +08:00
-permalink: /`nsuserdefaults`
+permalink: /nsuserdefaults
 tags: iOS
 ---
 
