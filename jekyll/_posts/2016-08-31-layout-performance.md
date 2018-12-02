@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 从 Auto Layout 的布局算法谈性能
 date: 2016-08-31 21:52:25.000000000 +08:00
-permalink: /:title
+permalink: /layout-performance
 tags: iOS ASDK
 ---
 

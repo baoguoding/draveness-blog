@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: Prolog 列表和运算符 <4>
 date: 2015-04-10 14:36:10.000000000 +08:00
-permalink: /:title
+permalink: /prolog-lie-biao-he-yun-suan-fu-4
 tags: Prolog
 ---
 

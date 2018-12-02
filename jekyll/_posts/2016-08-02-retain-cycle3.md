@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 如何实现 iOS 中的 Associated Object
 date: 2016-08-02 23:13:01.000000000 +08:00
-permalink: /:title
+permalink: /retain-cycle3
 tags: iOS
 ---
 

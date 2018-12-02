@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: RAC 中的双向数据绑定 RACChannel
 date: 2017-02-16 19:59:14.000000000 +08:00
-permalink: /:title
+permalink: /racchannel
 tags: iOS RAC
 ---
 

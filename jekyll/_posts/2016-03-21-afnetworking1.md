@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: AFNetworking 概述（一）
 date: 2016-03-21 10:57:28.000000000 +08:00
-permalink: /:title
+permalink: /afnetworking1
 tags: iOS AFNetworking
 ---
 

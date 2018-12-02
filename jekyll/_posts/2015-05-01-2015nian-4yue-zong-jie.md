@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 2015 年 4 月总结
 date: 2015-05-01 23:27:55.000000000 +08:00
-permalink: /:title
+permalink: /2015nian-4yue-zong-jie
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: Redis 中的事件循环
 date: 2016-12-09 23:42:05.000000000 +08:00
-permalink: /:title
+permalink: /redis-eventloop
 tags: Redis 数据库 NoSQL
 ---
 

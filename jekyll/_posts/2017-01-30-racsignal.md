@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "『状态』驱动的世界：ReactiveCocoa"
 date: 2017-01-30 21:06:48.000000000 +08:00
-permalink: /:title
+permalink: /racsignal
 tags: iOS RAC
 ---
 

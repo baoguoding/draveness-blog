@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: iOS 源代码分析----SDWebImage
 date: 2015-04-12 13:44:09.000000000 +08:00
-permalink: /:title
+permalink: /ios-yuan-dai-ma-jie-xi-sdwebimage
 tags: iOS SDWebImage
 ---
 

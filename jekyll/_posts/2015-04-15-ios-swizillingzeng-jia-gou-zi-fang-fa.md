@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: iOS 为 UIKit 属性增加钩子方法
 date: 2015-04-15 13:34:03.000000000 +08:00
-permalink: /:title
+permalink: /ios-swizillingzeng-jia-gou-zi-fang-fa
 tags: iOS
 ---
 

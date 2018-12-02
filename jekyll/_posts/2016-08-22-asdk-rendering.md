@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 使用 ASDK 性能调优 - 提升 iOS 界面的渲染性能
 date: 2016-08-22 20:57:31.000000000 +08:00
-permalink: /:title
+permalink: /asdk-rendering
 tags: iOS ASDK
 ---
 

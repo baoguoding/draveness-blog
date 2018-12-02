@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 链式语法与 Objective-C
 date: 2015-05-27 15:44:22.000000000 +08:00
-permalink: /:title
+permalink: /lian-shi-yu-fa-yu-objective-c
 tags: iOS
 ---
 

@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: Shell 编程初探
 date: 2015-05-16 21:03:05.000000000 +08:00
-permalink: /:title
+permalink: /shell-bian-cheng-chu-tan
 ---
 
 

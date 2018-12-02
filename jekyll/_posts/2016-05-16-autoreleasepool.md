@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 自动释放池的前世今生 ---- 深入解析 autoreleasepool
 date: 2016-05-16 01:20:23.000000000 +08:00
-permalink: /:title
+permalink: /autoreleasepool
 tags: iOS 运行时 Runtime
 ---
 

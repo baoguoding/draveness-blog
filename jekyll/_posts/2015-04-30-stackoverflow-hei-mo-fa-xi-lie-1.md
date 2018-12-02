@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: StackOverflow 黑魔法系列 <1>
 date: 2015-04-30 21:52:25.000000000 +08:00
-permalink: /:title
+permalink: /stackoverflow-hei-mo-fa-xi-lie-1
 tags: iOS
 ---
 

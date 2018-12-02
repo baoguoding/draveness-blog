@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 用于多播的 RACMulticastConnection
 date: 2017-02-15 15:21:01.000000000 +08:00
-permalink: /:title
+permalink: /racconnection
 tags: iOS RAC
 ---
 

@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 我只想安安静静地学 Node.js
 date: 2015-04-19 11:26:20.000000000 +08:00
-permalink: /:title
+permalink: /zhi-xiang-an-an-jing-jing-di-xue-node-js
 tags: Node.js
 ---
 

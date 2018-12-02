@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: iOS 开发中使用 NSURLProtocol 拦截 HTTP 请求
 date: 2016-08-16 21:46:58.000000000 +08:00
-permalink: /:title
+permalink: /intercept
 tags: iOS HTTP
 ---
 

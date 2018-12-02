@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 对象是如何初始化的（iOS）
 date: 2016-08-07 12:09:48.000000000 +08:00
-permalink: /:title
+permalink: /object-init
 tags: iOS 运行时 Runtime
 ---
 

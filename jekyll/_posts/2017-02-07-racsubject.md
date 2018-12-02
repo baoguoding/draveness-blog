@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "『可变』的热信号 RACSubject"
 date: 2017-02-07 19:46:08.000000000 +08:00
-permalink: /:title
+permalink: /racsubject
 tags: iOS RAC
 ---
 

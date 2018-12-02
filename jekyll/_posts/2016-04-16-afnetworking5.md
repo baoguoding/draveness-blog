@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 验证 HTTPS 请求的证书（五）
 date: 2016-04-16 12:40:52.000000000 +08:00
-permalink: /:title
+permalink: /afnetworking5
 tags: iOS AFNetworking
 ---
 

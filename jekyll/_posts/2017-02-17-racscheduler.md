@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 理解 RACScheduler 的实现
 date: 2017-02-17 20:10:43.000000000 +08:00
-permalink: /:title
+permalink: /racscheduler
 tags: iOS RAC
 ---
 

@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 使用代码为 Xcode 工程添加文件
 date: 2015-05-06 20:48:25.000000000 +08:00
-permalink: /:title
+permalink: /bei-xcodeproj-keng-de-zhe-ji-tian
 tags: iOS
 ---
 

@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 上古时代 Objective-C 中哈希表的实现
 date: 2016-05-07 00:12:56.000000000 +08:00
-permalink: /:title
+permalink: /hashtable
 tags: iOS 运行时 Runtime
 ---
 

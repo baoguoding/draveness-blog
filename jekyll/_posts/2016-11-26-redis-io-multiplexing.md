@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: Redis 和 I/O 多路复用
 date: 2016-11-26 14:07:18.000000000 +08:00
-permalink: /:title
+permalink: /redis-io-multiplexing
 tags: Redis 数据库 NoSQL
 ---
 

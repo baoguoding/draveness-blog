@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 如何在 iOS 中解决循环引用的问题
 date: 2016-07-30 11:13:16.000000000 +08:00
-permalink: /:title
+permalink: /retain-cycle1
 tags: iOS
 ---
 

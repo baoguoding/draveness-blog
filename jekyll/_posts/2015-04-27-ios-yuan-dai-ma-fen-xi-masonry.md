@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: iOS 源代码分析----Masonry
 date: 2015-04-27 16:40:22.000000000 +08:00
-permalink: /:title
+permalink: /ios-yuan-dai-ma-fen-xi-masonry
 tags: iOS Masonry
 ---
 

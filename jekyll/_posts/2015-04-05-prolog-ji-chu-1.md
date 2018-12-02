@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: Prolog 基础 <1>
 date: 2015-04-05 19:45:30.000000000 +08:00
-permalink: /:title
+permalink: /prolog-ji-chu-1
 ---
 
 

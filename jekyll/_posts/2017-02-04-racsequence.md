@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: Pull-Driven 的数据流 RACSequence
 date: 2017-02-04 22:15:57.000000000 +08:00
-permalink: /:title
+permalink: /racsequence
 tags: iOS RAC
 ---
 

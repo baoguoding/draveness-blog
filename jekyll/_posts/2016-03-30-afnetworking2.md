@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: AFNetworking 的核心 AFURLSessionManager（二）
 date: 2016-03-30 09:50:43.000000000 +08:00
-permalink: /:title
+permalink: /afnetworking2
 tags: iOS AFNetworking
 ---
 

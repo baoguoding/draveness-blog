@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 优雅的 RACCommand
 date: 2017-02-10 20:35:23.000000000 +08:00
-permalink: /:title
+permalink: /raccommand
 tags: iOS RAC
 ---
 

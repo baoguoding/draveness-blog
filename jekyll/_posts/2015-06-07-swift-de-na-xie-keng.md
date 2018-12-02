@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: MagicMove 在 iOS 中的实现
 date: 2015-06-07 21:33:57.000000000 +08:00
-permalink: /:title
+permalink: /swift-de-na-xie-keng
 tags: iOS
 ---
 

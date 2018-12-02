@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: iOS 开发中的重构
 date: 2016-03-10 17:42:11.000000000 +08:00
-permalink: /:title
+permalink: /ios-kai-fa-zhong-de-zhong-gou
 tags: iOS
 ---
 

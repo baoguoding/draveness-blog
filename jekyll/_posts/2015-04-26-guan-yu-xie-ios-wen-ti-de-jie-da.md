@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 关于一些 iOS 面试问题的解答
 date: 2015-04-26 21:59:29.000000000 +08:00
-permalink: /:title
+permalink: /guan-yu-xie-ios-wen-ti-de-jie-da
 tags: iOS
 ---
 

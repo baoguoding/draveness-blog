@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 处理请求和响应 AFURLSerialization（三）
 date: 2016-04-12 22:01:09.000000000 +08:00
-permalink: /:title
+permalink: /afnetworking3
 tags: iOS AFNetworking
 ---
 

@@ -4,7 +4,7 @@ toc: true
 title: 如何优雅地使用 KVO
 date: 2017-03-06 00:34:44.000000000 +08:00
 
-permalink: /:title
+permalink: /kvocontroller
 tags: iOS KVO
 ---
 

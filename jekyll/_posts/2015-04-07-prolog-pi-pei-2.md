@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: Prolog 匹配 <2>
 date: 2015-04-07 18:45:48.000000000 +08:00
-permalink: /:title
+permalink: /prolog-pi-pei-2
 ---
 
 这篇 post 有两个主要的目的:

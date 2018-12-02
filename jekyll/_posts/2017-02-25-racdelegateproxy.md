@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 从代理到 RACSignal
 date: 2017-02-25 22:55:52.000000000 +08:00
-permalink: /:title
+permalink: /racdelegateproxy
 tags: iOS RAC
 ---
 

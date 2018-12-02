@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: iOS 源代码分析 ---- MBProgressHUD
 date: 2016-03-10 17:40:48.000000000 +08:00
-permalink: /:title
+permalink: /ios-yuan-dai-ma-fen-xi-mbprogresshud
 tags: iOS
 ---
 

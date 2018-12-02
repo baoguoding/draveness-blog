@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 程序员修炼之道 Tips
 date: 2015-05-02 15:42:21.000000000 +08:00
-permalink: /:title
+permalink: /cheng-xu-yuan-xiu-lian-zhi-dao-tips
 ---
 
 

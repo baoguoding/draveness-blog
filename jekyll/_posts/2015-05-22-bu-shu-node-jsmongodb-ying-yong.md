@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: 部署 Node.js+MongoDB App
 date: 2015-05-22 17:55:22.000000000 +08:00
-permalink: /:title
+permalink: /bu-shu-node-jsmongodb-ying-yong
 tags: Node.js MongoDB
 ---
 

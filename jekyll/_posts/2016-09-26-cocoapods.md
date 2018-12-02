@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: CocoaPods 都做了什么？
 date: 2016-09-26 14:19:06.000000000 +08:00
-permalink: /:title
+permalink: /cocoapods
 tags: iOS Ruby Cocoapods
 ---
 
