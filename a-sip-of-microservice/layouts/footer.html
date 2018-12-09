@@ -1,0 +1,26 @@
+{% if page.permalink %}
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+
+ var gitalk = new Gitalk({
+   clientID: '9b9309114bace01e2a7e',
+   clientSecret: '74e636d9c5ffbfeff0c5cdbe1471dce4eca75358',
+   repo: 'blog-comments',
+   owner: 'Draveness',
+   admin: ['Draveness'],
+   id: "{{ page.permalink }}",
+   distractionFreeMode: false
+ });
+ gitalk.render('gitalk-container')
+
+ if (typeof this.gitbook !== "undefined") {
+   this.gitbook.events.bind("page.change", function(e, config) {
+     gitalk.id = "{{ page.permalink }}"
+     gitalk.render('gitalk-container')
+   });
+ }
+
+</script>
+{% endif %}

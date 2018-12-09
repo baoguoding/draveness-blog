@@ -1,6 +1,6 @@
 {
   "plugins": [
-    "footer"
+    "customize-footer"
   ],
   "pluginsConfig": {
     "layout": {
