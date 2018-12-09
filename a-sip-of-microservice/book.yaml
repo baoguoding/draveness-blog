@@ -26,3 +26,5 @@
   children:
     - name: 谈 Kubernetes 的架构设计与实现原理
       path: understanding-kubernetes
+    - name: 从 Kubernetes 中的对象谈起
+      path: kubernetes-object-intro
