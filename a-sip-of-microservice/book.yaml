@@ -1,0 +1,28 @@
+- name: 基础
+  path: basic
+  children:
+    - name: 分布式事务的实现原理
+      path: distributed-transaction-principle
+    - name: 分布式系统与消息的投递
+      path: message-delivery
+- name: 数据库
+  path: database
+  children:
+    - name: 分布式键值存储 Dynamo 的实现原理
+      path: dynamo
+    - name: 浅析 Bigtable 和 LevelDB 的实现
+      path: bigtable-leveldb
+- name: 分布式协调与服务发现
+  path: coordination
+  children:
+    - name: 详解分布式协调服务 ZooKeeper
+      path: zookeeper-chubby
+    - name: 高可用分布式存储 etcd 的实现原理
+      path: etcd-introduction
+    - name: 详解 DNS 与 CoreDNS 的实现原理
+      path: dns-coredns
+- name: 容器编排
+  path: container-orchestration
+  children:
+    - name: 谈 Kubernetes 的架构设计与实现原理
+      path: understanding-kubernetes

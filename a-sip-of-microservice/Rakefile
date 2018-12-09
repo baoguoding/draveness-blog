@@ -1,0 +1,64 @@
+# coding: utf-8
+require 'yaml'
+
+task :default => [:build, :build_summary]
+
+task :build do
+  chapters = YAML.load File.read("./book.yaml")
+  all_posts = Dir["../jekyll/_posts/*"]
+  all_sections(chapters).each do |section|
+    selected_post = all_posts.find do |post|
+      File.basename(post)[11..-1] == File.basename(section)
+    end
+
+    puts "#{section} not found" unless selected_post
+    post_content = File.read selected_post
+    post_content = post_content.gsub("""
+## 相关文章
+
+{% include related/distributed-system.md %}
+""", '')
+
+    FileUtils.mkdir_p File.dirname(section)
+
+    FileUtils.rm section if File.exists? section
+    File.open(section, 'w') do |f|
+      f.write post_content
+    end
+  end
+end
+
+task :build_summary do
+  summary = "# Summary"
+  summary += "\n"
+
+  chapters = YAML.load File.read("./book.yaml")
+
+  chapters.each do |chapter|
+    summary += """
++ [#{chapter['name']}](#{chapter['path']}/README.md)"""
+    current_path = chapter['path']
+    chapter.fetch('children', []).each do |child|
+      file_path = File.join(current_path, "#{child['path']}.md")
+      summary += """
+    + [#{child['name']}](#{file_path})"""
+    end
+  end
+
+  File.open('SUMMARY.md', 'w') do |f|
+    f.write summary
+  end
+end
+
+
+    def all_sections(chapters)
+      paths = []
+      chapters.each do |chapter|
+        current_path = chapter['path']
+        chapter.fetch('children', []).each do |child|
+          paths << File.join(current_path, "#{child['path']}.md")
+        end
+      end
+
+      paths
+    end

@@ -145,10 +145,6 @@ Dynamo 中的每一个节点都为其持有的键的范围维护了一颗 Merkle
 
 不管如何，Dynamo 作为支撑亚马逊业务的底层服务，其实现原理和思想对于整个社区都是非常有价值的，然而它使用的去中心化的策略也带了很多问题，虽然作者可能会因为这个原因在选择数据库时不会 Dynamo，不过相信它也是有合适的应用场景的。
 
-## 相关文章
-
-{% include related/distributed-system.md %}
-
 ## Reference
 
 + [Dynamo: Amazon’s Highly Available Key-value Store](http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)

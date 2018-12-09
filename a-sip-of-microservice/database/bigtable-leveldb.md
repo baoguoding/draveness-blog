@@ -464,10 +464,6 @@ struct TableBuilder::Rep {
 
 LevelDB 的源代码非常易于阅读，也是学习 C++ 语言非常优秀的资源，如果对文章的内容有疑问，可以在博客下面留言。
 
-## 相关文章
-
-{% include related/distributed-system.md %}
-
 ## Reference
 
 + [Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
