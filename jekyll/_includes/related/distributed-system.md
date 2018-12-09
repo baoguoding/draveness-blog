@@ -10,3 +10,4 @@
   + [详解 DNS 与 CoreDNS 的实现原理](https://draveness.me/dns-coredns)
 + 容器编排
   + [谈 Kubernetes 的架构设计与实现原理](https://draveness.me/understanding-kubernetes)
+  + [从 Kubernetes 中的对象谈起](https://draveness.me/kubernetes-object-intro.md)

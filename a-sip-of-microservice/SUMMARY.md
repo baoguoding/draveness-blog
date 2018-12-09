@@ -12,3 +12,4 @@
     + [详解 DNS 与 CoreDNS 的实现原理](coordination/dns-coredns.md)
 + [容器编排](container-orchestration/README.md)
     + [谈 Kubernetes 的架构设计与实现原理](container-orchestration/understanding-kubernetes.md)
+    + [从 Kubernetes 中的对象谈起](container-orchestration/kubernetes-object-intro.md)
