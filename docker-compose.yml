@@ -10,6 +10,11 @@ certbot:
     - ./data/certbot/conf:/etc/letsencrypt
     - ./data/certbot/www:/var/www/certbot
 
+a-sip-of-microservice:
+  build: ./a-sip-of-microservice
+  volumes_from:
+    - nginx
+
 nginx:
   build: ./nginx
   command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
@@ -20,4 +25,5 @@ nginx:
     - ./data/certbot/conf:/etc/letsencrypt
     - ./data/certbot/www:/var/www/certbot
     - /var/www/blog
+    - /var/www/gitbook
     - "./etc/nginx/site-enabled/draveness.me.conf:/nginx/draveness.me.conf"
