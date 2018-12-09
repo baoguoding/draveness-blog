@@ -1,6 +1,6 @@
 #!/bin/bash
 
-domains=( "draveness.me" )
+domains=( "draveness.me" "microserivce.draveness.me" )
 rsa_key_size=4096
 data_path="./data/certbot"
 email="i@dravness.me" #Adding a valid address is strongly recommended 
