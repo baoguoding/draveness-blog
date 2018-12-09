@@ -1,25 +1,29 @@
 #!/bin/bash
 
-domains=( "draveness.me" "microserivce.draveness.me" )
+domains=( "draveness.me" "microservice.draveness.me" )
 rsa_key_size=4096
 data_path="./data/certbot"
-email="i@dravness.me" #Adding a valid address is strongly recommended 
+email="i@dravness.me" #Adding a valid address is strongly recommended
 staging=0 #Set to 1 if you're just testing your setup to avoid hitting request limits
 
 echo "### Preparing directories in $data_path ..."
 rm -Rf "$data_path"
 mkdir -p "$data_path/www"
-mkdir -p "$data_path/conf/live/$domains"
+for domain in "${domains[@]}"; do
+	mkdir -p "$data_path/conf/live/$domain"
+done
 
 
 echo "### Creating dummy certificate ..."
-path="/etc/letsencrypt/live/$domains"
-mkdir -p "$path"
-docker-compose run --rm --entrypoint "\
+for domain in "${domains[@]}"; do
+    path="/etc/letsencrypt/live/$domain"
+    mkdir -p "$path"
+    docker-compose run --rm --entrypoint "\
     openssl req -x509 -nodes -newkey rsa:1024 -days 1\
       -keyout '$path/privkey.pem' \
       -out '$path/fullchain.pem' \
       -subj '/CN=localhost'" certbot
+done
 
 
 echo "### Downloading recommended HTTPS parameters ..."

@@ -11,7 +11,7 @@ certbot:
     - ./data/certbot/www:/var/www/certbot
 
 microservice:
-  build: ./a-sip-of-microservice
+  build: ./microservice
   volumes_from:
     - nginx
 
@@ -26,5 +26,3 @@ nginx:
     - ./data/certbot/www:/var/www/certbot
     - /var/www/blog
     - /var/www/gitbook
-    - "./etc/nginx/site-enabled/draveness.me.conf:/nginx/draveness.me.conf"
-    - "./etc/nginx/site-enabled/microservice-gitbook.conf:/nginx/microservice-gitbook.conf"
