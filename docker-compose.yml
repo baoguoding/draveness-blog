@@ -10,7 +10,7 @@ certbot:
     - ./data/certbot/conf:/etc/letsencrypt
     - ./data/certbot/www:/var/www/certbot
 
-a-sip-of-microservice:
+microservice:
   build: ./a-sip-of-microservice
   volumes_from:
     - nginx
