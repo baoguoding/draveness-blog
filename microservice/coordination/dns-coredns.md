@@ -7,6 +7,8 @@ toc: true
 desc: 域名系统（Domain Name System）是整个互联网的电话簿，它能够将可被人理解的域名翻译成可被机器理解 IP 地址，使得互联网的使用者不再需要直接接触很难阅读和理解的 IP 地址。这篇文章中的第一部分会介绍 DNS 的工作原理以及一些常见的 DNS 问题，而第二部分我们会介绍 DNS 服务 CoreDNS 的架构和实现原理。
 ---
 
+# 详解 DNS 与 CoreDNS 的实现原理
+
 域名系统（Domain Name System）是整个互联网的电话簿，它能够将可被人理解的域名翻译成可被机器理解 IP 地址，使得互联网的使用者不再需要直接接触很难阅读和理解的 IP 地址。
 
 ![coredns-logo](https://img.draveness.me/2018-11-07-coredns-logo.png)

@@ -7,6 +7,8 @@ tags: 分布式系统 数据库 NoSQL Dynamo Bigtable
 desc: 这篇文章会分析 Amazon 开发的分布式数据库 Dynamo 的实现，同时还会介绍 Dynamo 的设计理念以及架构等问题，还会就其中的部分问题与 Bigtable 中相对应的概念进行对比，这样能够让我们更加清楚地了解不同的数据库对不同问题，因设计理念的差异做出的权衡。
 ---
 
+# 分布式键值存储 Dynamo 的实现原理
+
 在最近的一周时间里，一直都在研究和阅读 Amazon 的一篇论文 [Dynamo: Amazon’s Highly Available Key-value Store](http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)，论文中描述了 Amazon 的高可用分布式键值存储服务 Dynamo 的实现原理。
 
 ![dynamodb](https://img.draveness.me/2017-10-24-dynamodb.png)

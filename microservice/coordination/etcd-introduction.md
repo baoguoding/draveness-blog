@@ -7,6 +7,8 @@ toc: true
 desc: etcd 是一个定可信赖的分布式键值存储服务，它能够为整个分布式集群存储一些关键数据，协助分布式集群的正常运转。这篇文章将会介绍 etcd 的实现原理，其中包括 Raft 协议、存储两大模块，在最后我们也会简单介绍 etcd 一些具体应用场景，例如：服务发现、发布订阅、分布式锁以及分布式协调等功能。
 ---
 
+# 高可用分布式存储 etcd 的实现原理
+
 在上一篇文章 [详解分布式协调服务 ZooKeeper](https://draveness.me/zookeeper-chubby) 中，我们介绍过分布式协调服务 Zookeeper 的实现原理以及应用，今天想要介绍的 etcd 其实也是在生产环境中经常被使用的协调服务，它与 Zookeeper 一样，也能够为整个集群提供服务发现、配置以及分布式协调的功能。
 
 ![etcd-logo](https://img.draveness.me/2018-10-22-etcd-logo.png)

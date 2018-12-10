@@ -7,6 +7,8 @@ toc: true
 desc: 上一篇文章中，我们其实介绍了 Kubernetes 的对象其实就是系统中持久化的实体，Kubernetes 用这些实体来表示集群中的状态，它们描述了集群中运行的容器化应用以及这些对象占用的资源和行为。当我们想要了解 Kubernetes 的实现原理时，绕不开的其实就是 Kubernetes 中的对象，而在 Kubernetes 中，规格（Spec）和状态（Status）是用于描述 Kubernetes 对象的两个最重要的嵌套对象，在这篇文章中会重点介绍对象的规格和状态的使用方式和实现原理。
 ---
 
+# 从 Kubernetes 中的对象谈起
+
 上一篇文章中，我们其实介绍了 Kubernetes 的对象其实就是系统中持久化的实体，Kubernetes 用这些实体来表示集群中的状态，它们描述了集群中运行的容器化应用以及这些对象占用的资源和行为。
 
 ![kubernetes-object](https://img.draveness.me/2018-12-09-kubernetes-object.png)

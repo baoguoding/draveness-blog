@@ -7,6 +7,8 @@ toc: true
 desc: 我们在这篇文章中简单介绍了 Google 的分布式锁服务 Chubby 以及同样能够提供分布式锁服务功能的 Zookeeper。作为分布式协调服务，Zookeeper 的应用场景非常广泛，不仅能够用于服务配置的下发、命名服务、协调分布式事务以及分布式锁，还能够用来实现微服务治理中的服务注册以及发现等功能，这些其实都源于 Zookeeper 能够提供高可用的分布式协调服务，能够为客户端提供分布式一致性的支持。
 ---
 
+# 详解分布式协调服务 ZooKeeper
+
 在 2006 年，Google 发表了一篇名为 [The Chubby lock service for loosely-coupled distributed systems](https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf) 的论文，其中描述了一个分布式锁服务 Chubby 的设计理念和实现原理；作为 Google 内部的一个基础服务，虽然 Chubby 与 GFS、Bigtable 和 MapReduce 相比并没有那么大的名气，不过它在 Google 内部也是非常重要的基础设施。
 
 ![zookeeper-banner](https://img.draveness.me/2018-09-22-zookeeper-banner.png)

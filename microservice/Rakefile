@@ -19,6 +19,9 @@ task :build do
 {% include related/distributed-system.md %}
 """, '')
 
+    title = post_content.match(/title:(.+)/).to_a[1].strip
+    post_content = post_content.sub(/---\n\n/, "---\n\n# #{title}\n\n") unless title == ""
+
     FileUtils.mkdir_p File.dirname(section)
 
     FileUtils.rm section if File.exists? section
