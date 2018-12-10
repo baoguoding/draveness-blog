@@ -1,5 +1,17 @@
 {
+  "gitbook": ">=3.2.0",
+  "description": "浅入浅出微服务架构",
+  "language": "zh-hans",
+  "author": "Draven Zuo <i@draveness.me>",
+  "extension": null,
+  "generator": "site",
+  "links" : {
+    "sidebar" : {
+        "面向信仰编程": "https://draveness.me"
+    }
+  },
   "plugins": [
+    "splitter",
     "customize-footer"
   ],
   "pluginsConfig": {
