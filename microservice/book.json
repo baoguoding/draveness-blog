@@ -12,11 +12,19 @@
   },
   "plugins": [
     "splitter",
-    "customize-footer"
+    "github",
+    "customize-footer",
+    "sitemap"
   ],
   "pluginsConfig": {
     "layout": {
       "footerPath" : "layouts/footer.html"
+    },
+     "github": {
+      "url": "https://github.com/draveness"
+    },
+    "sitemap": {
+        "hostname": "https://microservice.draveness.me/"
     }
   }
 }
