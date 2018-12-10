@@ -7,7 +7,8 @@
   "generator": "site",
   "links" : {
     "sidebar" : {
-        "面向信仰编程": "https://draveness.me"
+      "面向信仰编程": "https://draveness.me",
+      "@Draveness": "https://github.com/draveness"
     }
   },
   "plugins": [
@@ -20,11 +21,11 @@
     "layout": {
       "footerPath" : "layouts/footer.html"
     },
-     "github": {
+    "github": {
       "url": "https://github.com/draveness"
     },
     "sitemap": {
-        "hostname": "https://microservice.draveness.me/"
+      "hostname": "https://microservice.draveness.me/"
     }
   }
 }
